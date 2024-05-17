@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: fix;
+  src: url(Montserrat-Regular.ttf);
+}
+* .banner {
+  font-family: "fix" Montserrat;
+  height: 100vh;
+  width: cover;
+  background-image: url(img/bg-masthead.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* .banner h1 {
+  font-size: 50px;
+  padding: 5px;
+}
+* .banner p1 {
+  font-weight: bold;
+}
+* .banner .button1 {
+  background-color: #1d809f;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid #1d809f;
+  border-radius: 5px 5px 5px;
+}
+* .content {
+  font-family: "fix" Montserrat;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* .button2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid black;
+  border-radius: 5px 5px 5px;
+}
+* span {
+  display: block;
+}
+* .Icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d809f;
+  color: white;
+  padding: 50px;
+}
+* .sr {
+  color: #e5b21b;
+  font-size: small;
+}
+* .ick {
+  font-family: "fix" Montserrat;
+  display: flex;
+  font-size: 8px;
+  font-weight: lighter;
+  margin-top: 40px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+* .don {
+  font-family: "fix" Montserrat;
+  height: 100vh;
+  width: cover;
+  background-image: url(img/portfolio-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* .button3 {
+  background-color: #1d809f;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid #1d809f;
+  border-radius: 5px 5px 5px;
+}
+* .web {
+  font-family: "fix" Montserrat;
+  font-weight: bolder;
+  font-size: 40px;
+}
+* .we {
+  font-size: 40px;
+}
+* .pot {
+  font-family: "fix" Montserrat;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* .potcolor {
+  font-family: "fix" Montserrat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e5b21b;
+  font-size: 15px;
+  font-weight: bold;
+}
+* .rec {
+  font-size: 20px;
+}
+* .resist {
+  font-family: "fix" Montserrat;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d809f;
+}
+* .button4 {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid white;
+  border-radius: 5px 5px 5px;
+}
+* .button5 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid black;
+  border-radius: 5px 5px 5px;
+}
+* .container {
+  font-family: "fix" Montserrat;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+* .recent {
+  font-size: 36px;
+  margin-top: 5px;
+}
+* .box1 {
+  font-family: "fix" Montserrat;
+  background-image: url(img/portfolio-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+* .stati {
+  margin-top: 120px;
+  margin-right: 99px;
+}
+* .box2 {
+  background-image: url(img/portfolio-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+* .ice {
+  margin-top: 120px;
+  margin-right: 99px;
+}
+* .box3 {
+  background-image: url(img/portfolio-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+* .straw {
+  margin-top: 120px;
+  margin-right: 99px;
+}
+* .box4 {
+  background-image: url(img/bg-callout.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+* .work {
+  margin-top: 120px;
+  margin-right: 99px;
+}
+* .map {
+  height: 59vh;
+  width: 100%;
+  background-image: url(img/Flexbox-Project.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* .fud {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin: 20px;
+  margin: 40px;
+}
+* .maq {
+  font-family: "fix" Montserrat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first center;
+  padding: 20px;
+}
+* .vip {
+  margin: 30px;
+  color: #1d809f;
+}
+* .but {
+  font-family: "fix" Montserrat;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+* .ico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* .iconi {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+* .material-symbols-outlined {
+  background-color: white;
+  padding: 30px;
+  border-radius: 50%;
+  color: #1d809f;
+}
+* .material-symbols-outlined .heart {
+  background-color: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .banner h1 {
+    font-size: 30px;
+    padding: 5px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .banner {
+    height: 65vh;
+  }
+  .banner p {
+    font-size: 15px;
+  }
+  .theme {
+    font-size: 8px;
+  }
+  .banner .button1 {
+    background-color: #1d809f;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border: solid #1d809f;
+    border-radius: 3px 3px 3px;
+  }
+  .button2 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 23px;
+    border: solid black;
+    border-radius: 3px 3px 3px;
+  }
+  .ick {
+    font-family: "fix" Montserrat;
+    display: flex;
+    flex-direction: column;
+  }
+  .don {
+    font-family: "fix" Montserrat;
+    height: 45vh;
+  }
+  .we {
+    font-size: 30px;
+  }
+  .web {
+    font-family: "fix" Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .button3 {
+    background-color: #1d809f;
+    color: white;
+    padding: 5px;
+  }
+  .recent {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .box1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 319px;
+  }
+  .stati {
+    margin-top: 120px;
+    margin-right: 16px;
+  }
+  .box2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 319px;
+  }
+  .ice {
+    margin-top: 120px;
+    margin-right: 16px;
+  }
+  .box4 {
+    background-image: url(img/bg-callout.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 319px;
+  }
+  .straw {
+    margin-top: 120px;
+    margin-right: 16px;
+  }
+  .box3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 319px;
+  }
+  .work {
+    margin-top: 120px;
+    margin-right: 16px;
+  }
+  .but {
+    font-size: 16px;
+  }
+  .pot {
+    font-family: "fix" Montserrat;
+    padding: 15px;
+  }
+  .button4 {
+    background-color: white;
+    color: black;
+    padding: 5px;
+  }
+  .button5 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+  }
+  .map {
+    height: 30vh;
+  }
+}
+@media only screen and (max-width: 576px) and (min-width: 578px) and (max-width: 768px) {
+  .banner {
+    font-family: "fix" Montserrat;
+    height: 47vh;
+  }
+}/*# sourceMappingURL=index.css.map */
